@@ -12,8 +12,12 @@ QuickCypher is a lightweight command-line tool written in Python that allows use
 - Encrypt text
 `python3 quickcypher.py --text "secret message"`
 
+<img width="2252" height="208" alt="image" src="https://github.com/user-attachments/assets/0afcebea-2ae0-4a48-b574-d1ed77808fc5" />
+
 - Decrypt text
 `python3 quickcypher.py --decrypt "<encrypted_token>" --key "<encryption_key>"`
+
+<img width="2282" height="174" alt="image" src="https://github.com/user-attachments/assets/9f0660c4-7349-405e-b8e4-f79b17109c8e" />
 
 You can also add this tool in your bashrc to make it easier to use:
 ```bash
@@ -27,11 +31,6 @@ function decrypt() {
         python3 $PATH -d "$1" -k $key
 }
 ````
-<img width="2252" height="208" alt="image" src="https://github.com/user-attachments/assets/0afcebea-2ae0-4a48-b574-d1ed77808fc5" />
-
-<img width="2282" height="174" alt="image" src="https://github.com/user-attachments/assets/9f0660c4-7349-405e-b8e4-f79b17109c8e" />
-
-
 
 ## ⚙️ Requirements
 - Python 3.8+
