@@ -36,6 +36,5 @@ function decrypt() {
 - Python 3.8+
 - `cryptography` library
 
-## 📦 Installation
 ```bash
-pip install -r requirements.txt
+pip install cryptography or pip install cryptography --break-system-packages
